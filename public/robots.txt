@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jovial-griffin-0797b2.netlify.app/sitemap.xml
