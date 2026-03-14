@@ -36,7 +36,7 @@ export default function App() {
           transition={{ delay: 0.5 }}
           className="text-2xl md:text-4xl font-black text-white mb-12"
         >
-          신속하고 안전한 <span className="text-choice-yellow">타임대부중계!</span>
+          신속하고 안전한 <span className="text-choice-yellow">타임대부중개!</span>
         </motion.h1>
 
         {/* Floating Card Visual */}
@@ -45,7 +45,7 @@ export default function App() {
           transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }}
           className="relative w-72 h-44 bg-gradient-to-br from-blue-400 via-choice-pink to-purple-600 rounded-2xl shadow-2xl flex items-center justify-center border-4 border-white/20 mb-16"
         >
-          <span className="text-4xl font-black italic text-white drop-shadow-md">타임대부중계</span>
+          <span className="text-4xl font-black italic text-white drop-shadow-md">타임대부중개</span>
           <div className="absolute top-4 right-4 w-8 h-8 rounded-full bg-white/20 blur-sm"></div>
         </motion.div>
 
@@ -110,7 +110,7 @@ export default function App() {
         {/* Process Section */}
         <div className="w-full flex flex-col items-center mb-20">
           <div className="flex items-center gap-4 mb-10">
-            <h3 className="text-4xl font-black text-white italic">타임대부중계</h3>
+            <h3 className="text-4xl font-black text-white italic">타임대부중개</h3>
             <span className="text-2xl font-bold text-white">이렇게 진행됩니다.</span>
           </div>
           
@@ -145,7 +145,7 @@ export default function App() {
           
           <div className="flex items-center w-full max-w-md gap-1 mb-6">
             <div className="flex-grow bg-white rounded-l-lg px-4 py-3 flex items-center justify-between border-2 border-green-500 border-r-0">
-              <span className="font-black text-gray-800 text-lg">타임대부중계</span>
+              <span className="font-black text-gray-800 text-lg">타임대부중개</span>
               <Search className="w-5 h-5 text-green-500" />
             </div>
             <div className="bg-green-500 text-white px-6 py-3 rounded-r-lg font-black text-lg shrink-0 flex items-center justify-center">
@@ -154,14 +154,14 @@ export default function App() {
           </div>
           
           <p className="text-white font-bold text-sm md:text-base">
-            네이버 정식등록업체 네이버 <span className="text-choice-yellow">'타임대부중계'</span> 검색
+            네이버 정식등록업체 네이버 <span className="text-choice-yellow">'타임대부중개'</span> 검색
           </p>
         </div>
 
         {/* Consultation Section */}
         <div className="w-full flex flex-col items-center mb-20">
           <div className="text-center mb-8">
-            <p className="text-xl font-bold text-white mb-2">정식등록업체 '타임대부중계'</p>
+            <p className="text-xl font-bold text-white mb-2">정식등록업체 '타임대부중개'</p>
             <p className="text-2xl font-bold text-white mb-4">지금 바로 상담하세요!</p>
             <h3 className="text-4xl font-black text-white">빠르고 간편한 비대면 문의</h3>
           </div>
@@ -195,7 +195,7 @@ export default function App() {
         <div className="flex flex-col items-center text-center mb-20">
           <Headphones className="w-12 h-12 text-choice-yellow mb-6" />
           <p className="text-xl md:text-2xl font-bold text-white leading-relaxed">
-            타임대부중계는 <span className="text-choice-yellow">소액결제 현금화 및 상품권 매입</span> 전문으로<br />
+            타임대부중개는 <span className="text-choice-yellow">소액결제 현금화 및 상품권 매입</span> 전문으로<br />
             365일 24시 언제나 영업 중에 있습니다.<br />
             밤, 새벽, 주말, 공휴일 <span className="text-choice-yellow">언제든 필요한 시간</span>에 걱정마시고<br />
             문의주시면 <span className="text-choice-yellow">친절하게 상담</span> 도와드리겠습니다.
